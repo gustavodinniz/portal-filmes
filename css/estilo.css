@@ -1,0 +1,347 @@
+body{
+    background: rgb(34, 33, 33);
+}
+
+.header {
+    background: rgb(24, 23, 23);
+    margin-bottom: 20px;
+    text-align: center;
+}
+.header_area{
+    padding: 20px;
+}
+
+.menu_area{
+    margin-top: 15px;
+    color: red;
+}
+
+.menu_area nav a{
+    color: rgb(209, 198, 198);
+}
+
+.menu_area nav a:hover{
+    color: rgb(207, 28, 28);
+}
+
+.main{
+    background: rgb(24, 23, 23);
+}
+.main_area{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.main .card{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.footer{
+    margin-top: 20px;
+    background: rgb(24, 23, 23);
+    color: rgb(209, 198, 198);
+    text-align: center;
+}
+.footer_area{
+    padding: 20px;
+    text-align: center;
+}
+.logo{
+    width: 120px;
+}
+
+.em_destaque{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.em_destaque_titulo .btn{
+    color: rgb(207, 28, 28);
+    background-color: black;
+    border: 1px solid rgb(207, 28, 28);;
+    
+}
+
+.avaliacoes .btn{
+    color: rgb(207, 28, 28);;
+    background-color: black;
+    border: 1px solid rgb(207, 28, 28);
+}
+
+.avaliacoes{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.entrevistas{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.entrevistas .btn{
+    color: rgb(207, 28, 28);
+    background-color: black;
+    border: 1px solid rgb(207, 28, 28);
+}
+
+.novidades{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.card{
+    background-color: black;
+    color: white;
+}
+
+.lancamentos h3{
+    color: rgb(207, 28, 28);
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+.lancamentos .card{
+    margin-top: -1px;
+}
+
+
+.lancamentos_banner img{
+    
+    height: 400px;
+}
+
+.lancamentos_banner iframe{
+    width: 750px;
+    height: 400px;
+}
+
+.em_destaque_titulo{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    
+}
+
+.em_destaque_fotos img{
+    width: auto;
+    height: 300px;
+}
+
+.avaliacoes_titulo{
+    
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.entrevistas_titulo{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.entrevistas_video iframe{
+    height: 400px;
+    width: 300px;
+}
+
+.novidades_titulo{
+    
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.novidades .btn{
+    color: rgb(207, 28, 28);
+    background-color: black;
+    border: 1px solid rgb(207, 28, 28);
+}
+
+.video_entrevista{
+    color: rgb(209, 198, 198);
+}
+
+.form-floating select{
+    background-color: black;
+    border: black;
+    color: rgb(209, 198, 198);
+    margin-left: 20px;
+    
+}
+
+.form-floating label{
+    color: rgb(209, 198, 198);
+    margin-left: 20px;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 600px){
+    .lancamentos_banner{
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
+    .lancamentos_banner iframe{
+        width: 330px;
+        height: 300px;
+    }
+    .lancamentos_banner img{
+        width: 330px;
+        height: 300px;
+    }
+    .entrevistas_video iframe{
+        height: 300px;
+        width: 330px;
+    }
+    .avaliacoes_descricao{
+        width: 330px;
+    }
+    .avaliacoes{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .entrevistas{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .em_destaque{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .em_destaque_titulo .btn{
+        margin-bottom: 10px;
+    }
+    .form-floating label{
+        margin-left: 0px;
+    }
+    .form-floating select{
+        margin-left: 0px;
+    }
+    .em_destaque img{
+        width: 280px;
+        padding-left: 40px;
+    }
+    .novidades{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .novidades img{
+        padding-left: 20px;
+    }
+}
+
+@media screen and (min-width:601px) and (max-width: 980px){
+    .lancamentos_banner{
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
+    .lancamentos_banner iframe{
+        width: 600px;
+        height: 500px;
+    }
+    .lancamentos_banner img{
+        width: 600px;
+        height: 500px;
+    }
+    .lancamentos_descricao{
+        height: 570px;
+    }
+    .entrevistas_video iframe{
+        height: 200px;
+        width: 200px;
+    }
+    .avaliacoes_descricao{
+        width: 330px;
+    }
+    .avaliacoes{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .entrevistas{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .em_destaque{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .em_destaque_titulo .btn{
+        margin-bottom: 0px;
+    }
+    .form-floating label{
+        margin-left: 0px;
+        
+    }
+    .form-floating select{
+        margin-left: 0px;
+        margin-top: -50px;
+    }
+    .em_destaque img{
+        width: 280px;
+        padding-left: 40px;
+    }
+    .novidades{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .novidades img{
+        padding-left: 20px;
+    }
+}
+@media screen and (min-width:981px) and (max-width:1024px){
+    .lancamentos_banner{
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
+    .lancamentos_banner iframe{
+        width: 600px;
+        height: 500px;
+    }
+    .lancamentos_banner img{
+        width: 600px;
+        height: 500px;
+    }
+    .lancamentos_descricao{
+        height: 500px;
+    }
+    .entrevistas_video iframe{
+        height: 300px;
+        width: 280px;
+    }
+    .avaliacoes_descricao{
+        width: 300px;
+    }
+    .avaliacoes{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .entrevistas{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .em_destaque{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .em_destaque_titulo .btn{
+        margin-bottom: 0px;
+    }
+    .form-floating label{
+        margin-left: 0px;
+        
+    }
+    .form-floating select{
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .em_destaque img{
+        width: 200px;
+        padding-left: 10px;
+    }
+    .novidades{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .novidades img{
+        padding-left: 20px;
+    }
+}
